@@ -2,7 +2,7 @@ angular.module('ngseed.system').controller('HeaderController', ['$scope', 'Globa
     $scope.global = Global;
 
     $scope.menu = [{
-        "title": "Articles",
-        "link": "articles"
+        "title": "Home",
+        "link": ""
     }];
 }]);

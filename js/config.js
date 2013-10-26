@@ -1,5 +1,5 @@
-//Setting up route
-window.app.config(['$routeProvider',
+//Setting up routes
+angular.module('ngseed').config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
         when('/', {
@@ -11,8 +11,8 @@ window.app.config(['$routeProvider',
     }
 ]);
 
-//Setting HTML5 Location Mode
-window.app.config(['$locationProvider',
+//Setting Hashbang Location Mode
+angular.module('ngseed').config(['$locationProvider',
     function($locationProvider) {
         $locationProvider.hashPrefix("!");
     }
