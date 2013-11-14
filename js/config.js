@@ -1,12 +1,11 @@
 //Setting up routes
-angular.module('ngseed').config(['$routeProvider',
-    function($routeProvider) {
+angular.module('ngseed').config(['$routeProvider', function($routeProvider) {
         $routeProvider.
-        when('/', {
+        when('/home', {
             templateUrl: 'views/home.html'
         }).
         otherwise({
-            redirectTo: '/'
+            redirectTo: '/home'
         });
     }
 ]);
